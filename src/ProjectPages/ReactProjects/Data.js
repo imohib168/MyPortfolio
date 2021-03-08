@@ -9,6 +9,7 @@ import InstagramClone from './../../Images/ProjectImages/InstagramClone.png';
 import NetflixClone from './../../Images/ProjectImages/NetflixClone.png';
 import MovieApp from './../../Images/ProjectImages/MovieApp.png';
 import QuizAppReact from './../../Images/ProjectImages/QuizApp.png';
+import WeatherApp from './../../Images/ProjectImages/WeatherApp.png';
 
 export const homeObjOne = {
     primary: true,
@@ -151,4 +152,30 @@ export const homeObjEleven = {
     alt: 'Quiz App',
     start: true,
     projectLink: 'https://quiz-app-by-mohib.surge.sh/',
+};
+
+export const homeObjTwelve = {
+    primary: true,
+    topLine: 'React + TS (PWA with Offline capability)',
+    headline:
+        'Quiz App',
+    buttonLabel: 'Preview',
+    imgStart: true,
+    img: QuizAppReact,
+    alt: 'Quiz App',
+    start: true,
+    projectLink: 'https://quizapp168.netlify.app/',
+};
+
+export const homeObjThirteen = {
+    primary: true,
+    topLine: 'React + TS (PWA with Offline capability)',
+    headline:
+        'Weather App',
+    buttonLabel: 'Preview',
+    imgStart: true,
+    img: WeatherApp,
+    alt: 'Weather App',
+    start: true,
+    projectLink: 'https://weather-app-168.netlify.app/',
 };
