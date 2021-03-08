@@ -20,7 +20,7 @@ const About = () => {
                     <DescriptionContainer>
                         <Heading>Hello, I'm Mohib Ismail</Heading>
                         <ParagraphDesc>
-                            Hi, My name is Mohib Ismail and I'm an undergraduate Computer Science student and have around a year of experience in front-end Development. I'm very passionate about my general love for building web apps using HTML5, CSS3, JS, TS, REACTJS and other related technologies. Further looking forward to learn new skills and add them to my skill-set.
+                            An undergraduate Computer Science student and have around a year of experience in front-end Development. I'm very passionate about my general love for building web apps using HTML5, CSS3, JS, TS, REACTJS and other related technologies. Further looking forward to learn new skills and add them to my skill-set.
                         </ParagraphDesc>
                         <ToContact href="#contact">
                             <Button>
