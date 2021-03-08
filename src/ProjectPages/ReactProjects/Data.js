@@ -8,6 +8,7 @@ import AmazonClone from './../../Images/ProjectImages/AmazClone.png';
 import InstagramClone from './../../Images/ProjectImages/InstagramClone.png';
 import NetflixClone from './../../Images/ProjectImages/NetflixClone.png';
 import MovieApp from './../../Images/ProjectImages/MovieApp.png';
+import QuizAppReact from './../../Images/ProjectImages/QuizApp.png';
 
 export const homeObjOne = {
     primary: true,
@@ -137,4 +138,17 @@ export const homeObjTen = {
     alt: 'Add Movie App',
     start: true,
     projectLink: 'https://add-movie-app-by-mohib.surge.sh/',
+};
+
+export const homeObjEleven = {
+    primary: true,
+    topLine: 'React',
+    headline:
+        'Simple Quiz App',
+    buttonLabel: 'Preview',
+    imgStart: true,
+    img: QuizAppReact,
+    alt: 'Quiz App',
+    start: true,
+    projectLink: 'https://quiz-app-by-mohib.surge.sh/',
 };
