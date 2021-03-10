@@ -14,6 +14,7 @@ import {
     homeObjEleven,
     homeObjTwelve,
     homeObjThirteen,
+    homeObjFourteen,
 } from './Data';
 
 const ReactProjects = () => {
@@ -32,6 +33,7 @@ const ReactProjects = () => {
             <InfoSection {...homeObjEleven} />
             <InfoSection {...homeObjTwelve} />
             <InfoSection {...homeObjThirteen} />
+            <InfoSection {...homeObjFourteen} />
         </>
     )
 }
