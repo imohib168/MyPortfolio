@@ -10,6 +10,7 @@ import NetflixClone from './../../Images/ProjectImages/NetflixClone.png';
 import MovieApp from './../../Images/ProjectImages/MovieApp.png';
 import QuizAppReact from './../../Images/ProjectImages/QuizApp.png';
 import WeatherApp from './../../Images/ProjectImages/WeatherApp.png';
+import ExpTracker from './../../Images/ProjectImages/ExpTracker.png';
 
 export const homeObjOne = {
     primary: true,
@@ -178,4 +179,17 @@ export const homeObjThirteen = {
     alt: 'Weather App',
     start: true,
     projectLink: 'https://weather-app-168.netlify.app/',
+};
+
+export const homeObjFourteen = {
+    primary: true,
+    topLine: 'React(hooks, ContextAPI, useReducer) + TS (PWA with Offline capability & Push Notification)',
+    headline:
+        'Expense Tracker',
+    buttonLabel: 'Preview',
+    imgStart: true,
+    img: ExpTracker,
+    alt: 'Expense Tracker App',
+    start: true,
+    projectLink: 'https://expensetrackerpwa168.netlify.app/',
 };
