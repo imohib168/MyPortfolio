@@ -12,7 +12,18 @@ html {
 }
 body {
     overflow-x: hidden;
-    /* width: 100%; */
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: gray;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #253D3D;
 }
 `;
 
