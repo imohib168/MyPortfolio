@@ -6,10 +6,11 @@ export const CardContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 80vh;
     background: url(${CodeImage});
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     @media screen and (max-width: 1024px) {
         height: auto;
