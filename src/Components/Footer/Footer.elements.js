@@ -7,6 +7,8 @@ export const FooterWrapper = styled.div`
     padding: 8px;
     font-size: 20px;
     letter-spacing: 4px;
-    font-style: italic;
-    font-family: 'Poiret One', cursive;
+    font-weight: 300;
+    color: #A5A50F;
+    /* font-style: italic; */
+    /* font-family: 'Poiret One', cursive; */
 `
