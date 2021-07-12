@@ -38,26 +38,25 @@ export const Container = styled.div`
 `
 
 export const Button = styled.button`
-    width: 35%;
-    margin-top: 20px;
+    width: 40%;
+    margin-top: 30px;
     padding: 8px 20px;
-    font-size: 28px;
-    font-family: verdana;
+    font-size: 24px;
     border-radius: 2px;
     background: transparent;
-    border: 2px solid rgb(165,165,15);
+    border: 2px solid rgba(255,255,255,0.6);
     cursor: pointer;
     outline: none;
-    font-family: 'Marck Script', cursive;
-    letter-spacing: 6px;
-    font-weight: bold;
-    color: rgb(165,165,15);
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.6);
     z-index: 2;
 
     &:hover {
-        border: 2px solid transparent;
-        background: rgb(165, 165, 15);
-        color: black;
+        border: 2px solid rgba(255,255,255,0.9);
+        background: rgba(255,255,255,0.1);
+        color: rgba(255,255,255,0.9);
         transition: all 0.5s ease-in-out;
     }
 

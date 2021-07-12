@@ -10,7 +10,6 @@ export const CardContainer = styled.div`
     background: url(${CodeImage});
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 
     @media screen and (max-width: 1024px) {
         height: auto;
@@ -51,9 +50,10 @@ export const Card = styled.div`
 `
 
 export const Heading = styled.h2`
-    font-family: 'Poiret One', cursive;
+    /* font-family: 'Poiret One', cursive; */
+    font-family: 'Poppins', sans-serif;
     color: gray;
-    font-style: italic;
+    /* font-style: italic; */
     letter-spacing: 2px;
     font-size: 26px;
     margin-bottom: 20px;
@@ -66,7 +66,8 @@ export const Heading = styled.h2`
 export const ButtonLink = styled(Link)`
     text-decoration: none;
     color: gray;
-    font-family: 'Marck Script', cursive;
+    /* font-family: 'Marck Script', cursive; */
+    font-family: 'Poppins', sans-serif;
 
     &:hover {
         color: rgb(165, 165, 15);

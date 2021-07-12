@@ -66,7 +66,7 @@ export const NavbarMenu = styled.ul`
         left: ${({ click }) => (click ? 0 : '-100%')};
         opacity: 1;
         transition: all 0.5s ease;
-        background: #101522;
+        background: rgb(50,50,50);
 }
 `
 export const NavbarItem = styled.li`
@@ -92,7 +92,7 @@ export const NavLinkForHome = styled(Link)`
     transition: ease-in-out 0.8s;
 
     &:hover {
-        box-shadow: inset 400px 0 0 0 brown;
+        box-shadow: inset 400px 0 0 0 rgba(255,255,255,0.2);
     }
     
     @media screen and (max-width: 960px) {
@@ -100,10 +100,7 @@ export const NavLinkForHome = styled(Link)`
         padding: 25px;
         width: 100%;
         display: table;
-
-        &:hover {
-            background-color: #003153;
-        }
+        box-shadow: inset 0 0 0 0 gray;
     }
 `
 
@@ -118,7 +115,7 @@ export const NavLink = styled.a`
     transition: ease-in-out 0.8s;
 
     &:hover {
-        box-shadow: inset 400px 0 0 0 brown;
+        box-shadow: inset 400px 0 0 0 rgba(255,255,255,0.2);
     }
     
     @media screen and (max-width: 960px) {
@@ -126,9 +123,5 @@ export const NavLink = styled.a`
         padding: 25px;
         width: 100%;
         display: table;
-
-        &:hover {
-            background-color: #003153;
-        }
     }
 `

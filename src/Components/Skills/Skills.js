@@ -34,10 +34,10 @@ const Skills = () => {
         <SkillsSec>
             <Container>
                 <SkillsRow>
-                    <ImageWrapper data-aos="fade-left">
+                    <ImageWrapper data-aos="fade-right">
                         <SkillsImage />
                     </ImageWrapper>
-                    <DescriptionContainer data-aos="fade-right">
+                    <DescriptionContainer data-aos="fade-left">
                         <SkillsBar>
                             <Tag>Profeciency</Tag>
                             <Skill>

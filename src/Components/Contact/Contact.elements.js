@@ -6,10 +6,12 @@ import { SiGmail } from 'react-icons/si'
 
 export const AboutSec = styled.div`
     padding: 15px 0px;
-    background: linear-gradient(to bottom right, rgb(0, 43, 43), rgb(0,0,0));
+    /* background: linear-gradient(to bottom right, rgb(0, 43, 43), rgb(0,0,0)); */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgb(0, 43, 43));
 
     @media screen and (max-width: 1024px) {
-        background: linear-gradient(to top right, rgb(0, 0, 0), rgb(0, 43, 43));
+        /* background: linear-gradient(to top right, rgb(0, 0, 0), rgb(0, 43, 43)); */
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgb(0, 43, 43));
     }
 `
 export const AboutRow = styled.div`
@@ -24,11 +26,12 @@ export const AboutRow = styled.div`
 `
 
 export const Heading = styled.h1`
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 20px;
     font-weight: 300;
     letter-spacing: 3px;
-    color: rgb(165,165,15);
+    /* color: rgb(165,165,15); */
+    color: rgba(255,255,255,0.8);
 
     @media screen and (max-width: 1024px) {
         margin: 20px 0px;
@@ -57,11 +60,13 @@ export const ImageWrapper = styled.div`
     }
 `;
 
-export const ContactWrapper = styled.div``
+export const ContactWrapper = styled.div`
+    margin: 15px 0px;
+`
 
 export const MobileNumber = styled.p`
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 25px;
     color: gray;
     margin-bottom: 10px;
 
@@ -73,7 +78,7 @@ export const MobileNumber = styled.p`
 `
 export const Email = styled.p`
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 25px;
     color: gray;
     margin-bottom: 10px;
 

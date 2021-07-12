@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const SkillsSec = styled.div`
     padding: 25px 0px;
-    background: linear-gradient(to bottom right, rgb(0, 43, 43), rgb(0,0,0));
+    background: linear-gradient(to bottom, rgb(0, 43, 43), rgb(0,0,0));
 
     @media screen and (max-width: 960px) {
-        background: linear-gradient(to top right, rgb(0, 0, 0), rgb(0, 43, 43));
+        background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 43, 43));
     }
 `
 export const SkillsRow = styled.div`
